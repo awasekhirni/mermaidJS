@@ -1,0 +1,5 @@
+VSCODE extension 
+- mermaid editor - tomoyukim
+-mermaid preview - vlad stirbu
+- mermaid markdown syntax highlighting - brian pruitt-goddard
+- markdown preview mermaid support - matt bierner 

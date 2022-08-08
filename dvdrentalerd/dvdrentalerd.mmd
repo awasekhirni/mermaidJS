@@ -1,0 +1,34 @@
+erDiagram
+    film_category }o--||film:films
+    inventory}o--||film:films
+    
+    film_category{
+    smallint  film_id
+    smallint category_id
+    date last_update
+    }
+
+    inventory{
+    integer inventory_id
+    smallint film_id
+    smallint store_id
+    date last_update
+    }
+
+    film{
+    integer film_id
+    string title
+    text description
+    integer release_year
+    smallint language_id
+    smallint rental_duration
+    numeric rental_rate
+    smallint length
+    numeric replacement_cost
+    USER-DEFINED rating
+    }
+
+    
+
+ 
+

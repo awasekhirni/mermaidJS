@@ -1,0 +1,12 @@
+graph TB
+    A((START))-->B
+    B(Condition1?)-->|yes|C
+    C(Condition2?)-->|yes|D
+    D(Condition3?)-->|yes|E
+    E(Condition4?)-->|yes|X
+    X[ConclusionA]-->Z((DONE))
+    Y[ConclusionB]-->Z
+    B-->|no|Y
+    C-->|no|Y
+    D-->|no|Y
+    E-->|no|Y
